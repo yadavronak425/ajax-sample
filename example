@@ -1,0 +1,13 @@
+let signUpUrl = crnt_url+signup;
+            $.ajax({
+              type: "POST",
+              url: signUpUrl,
+              data: data,
+              dataType: 'json',
+              success: function (data) {
+                    console.log(data);
+                }
+            });
+            
+            
+            /*First include jquery file then implement this code */
